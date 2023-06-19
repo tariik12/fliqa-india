@@ -27,8 +27,8 @@ const Home = () => {
             <BrandingToMarketing></BrandingToMarketing>
             <OurBlogs></OurBlogs>
             <RealWedding></RealWedding>
-            <OurAwards></OurAwards>
             <BestOffer></BestOffer>
+            <OurAwards></OurAwards>
             <Testimonials></Testimonials>
             <OurSuccess></OurSuccess>
             <PhotoGraphy></PhotoGraphy>

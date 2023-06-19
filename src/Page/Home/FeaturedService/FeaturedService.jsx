@@ -19,7 +19,7 @@ const FeaturedService = () => {
         }
     };
     return (
-        <div className="mb-20 bg-base-100">
+        <div className="mb-20">
             <div>
                 <h1 className='text-[#4C696D,rgba(161, 227, 216, 1)] text-4xl'>Our Featured Service</h1>
                 <p className='text-xl'>Discover the range of services provided the fliqf india  </p>
