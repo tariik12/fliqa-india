@@ -1,0 +1,34 @@
+
+[
+    {   
+        "successId":"abc1",
+        "image": "https://i.ibb.co/v36PB9p/image-184.png",
+        "description": "Back in 2019, FliqaIndia recognize as a startup with DPIT in Startup India."
+      
+      },
+    {   
+        "successId":"abc2",
+        "image": "https://i.ibb.co/g3SqPxZ/image-removebg-preview-2022-07-23-T230415-1.png",
+        "description": "Website Design"
+        
+      },
+    {
+        "successId":"abc3",
+        "image": "https://i.ibb.co/g3ndzmN/image-removebg-preview-2022-07-23-T230425.png",
+        "description": "Beach Photography"
+       
+      },
+    {
+        "successId":"abc4",
+        "image": "https://i.ibb.co/RcfL9F6/image-removebg-preview-2022-07-23-T230432.png",
+        "description": "Wedding Packages"
+        
+      }
+      ,
+    {
+        "successId":"abc5",
+        "image": "https://i.ibb.co/0n4Xc1Q/image-removebg-preview-2022-07-23-T230437.png",
+        "description": "Wedding Packages"
+        
+      }
+]

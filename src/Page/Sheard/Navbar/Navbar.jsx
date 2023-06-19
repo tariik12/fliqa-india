@@ -14,15 +14,15 @@ const Navbar = () => {
 
   const navLinkItem =
     <>
-    <Link className="me-2 font-bold " to='/'>Home</Link>
-    <Link className="me-2 font-bold " to="/">Service</Link>
-    <Link className="me-2 font-bold "  to='/'>Portfolio</Link>
-    <Link className="me-2 font-bold "  to='/'>Community</Link>
-    <Link className="me-2 font-bold "  to='/'>blog</Link>
+    <Link className="me-8 font-bold " to='/'>Home</Link>
+    <Link className="me-8 font-bold " to="/">Service</Link>
+    <Link className="me-8 font-bold " to='/'>Portfolio</Link>
+    <Link className="me-8 font-bold " to='/'>Community</Link>
+    <Link className="me-8 font-bold " to='/'>blog</Link>
 </>
 
     return (
-        <div className="navbar bg-black text-white ">
+        <div className="navbar bg-[#000000]  text-white ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -32,17 +32,16 @@ const Navbar = () => {
              {navLinkItem}
             </ul>
           </div>
-          <img className="w-16 h-10" src={fliqaNavLogo} alt="" />
-          <a className="btn btn-ghost normal-case text-xl"></a>
-        </div>
-        <div className="navbar-start hidden lg:flex">
+          <img className="w-24 h-10 ms-5 my-5" src={fliqaNavLogo} alt="" />
+        <div className="navbar-center hidden lg:flex ms-10">
           <ul className="menu menu-horizontal px-1">
             {navLinkItem}
           </ul>
         </div>
+        </div>
         <div className="navbar-end">
-        <Link className="me-2 font-bold " to='/'>Login</Link>
-        <Link className="me-2 font-bold " to='/'>SingIn</Link>
+        <Link className="me-4 font-bold " to='/'>Login</Link>
+        <Link className="me-4 font-bold " to='/'>SingIn</Link>
         </div>
       </div>
       );

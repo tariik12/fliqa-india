@@ -10,12 +10,11 @@ const BrandingToMarketing = () => {
                 </h1>
                 <h4 className="text-3xl">From branding to marketing</h4>
 
-                <div className="form-control   rounded-2xl my-10 ">
-                    <label className="input-group">
-                        <input type="text" placeholder=" Search service, blog and many more" className="input input-bordered w-full rounded-2xl" />
-                        <button className="btn rounded-2xl">Search</button>
-                    </label>
-                </div>
+                <div className="flex relative my-9 ">
+            <input type="text" placeholder=" &#128269; what kind of design you are looking for?
+Search" className="input mx-auto input-sm  w-full input-bordered  me-12 py-[22px] " style={{borderRadius:'200px'}} />
+            <button className=" absolute right-10  text-white rounded-full btn-md  bg-black px-14 ">Search</button>
+            </div>
             </div>
             <div className="grid grid-cols-4 gap-5 ">
                 <div className="">

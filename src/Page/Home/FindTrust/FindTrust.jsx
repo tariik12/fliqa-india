@@ -14,7 +14,7 @@ const FindTrust = () => {
         })
     },[])
     return (
-        <div className='bg-[#A1E3D8]'>
+        <div className='bg-[#a1e3d8]'>
             <div className="flex justify-between p-10">
                 <div >
                 <h1 className='text-[#4C696D,rgba(161, 227, 216, 1)] text-4xl'>Find Trust Associate</h1>

@@ -22,7 +22,7 @@ const BestOffer = () => {
             <div className="grid grid-cols-1 md:grid-cols-4  " >
             {
                 cardData.map((data) =>
-                    <div key={data.title} style={{ backgroundImage: `url(${data.image})` }} className=" bg-no-repeat h-64 " >
+                    <div key={data.offerId} style={{ backgroundImage: `url(${data.image})` }} className=" bg-no-repeat h-64 " >
                   
                     <div className="text-white bg-[#0c0c0c72]">
                     <h1 className="font-bold text-lg p-10 bottom-2">{data.title}</h1>

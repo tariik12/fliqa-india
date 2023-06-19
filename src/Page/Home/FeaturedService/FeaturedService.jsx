@@ -24,8 +24,8 @@ const FeaturedService = () => {
                 <h1 className='text-[#4C696D,rgba(161, 227, 216, 1)] text-4xl'>Our Featured Service</h1>
                 <p className='text-xl'>Discover the range of services provided the fliqf india  </p>
             </div>
-            <Slider {...settings} className=" mx-10 ">
-                <div >
+            <Slider {...settings} className=" mx-10 p-5  ">
+                <div  className="">
                     <FeatureComponent image={"https://i.ibb.co/kS2MTfD/featured-Service1.png"}title={'Pre Wedding PhotoShoot'}text_bold={'Starting at'}text={"25,000 (One Day)"}></FeatureComponent>
                 </div>
              
