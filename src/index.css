@@ -1,3 +1,75 @@
+ /* body{
+    overflow: hidden;
+ } */
+
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Asul&family=Homenaje&family=Inter:wght@200;400;500;600;700;800;900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jaldi:wght@400;700&family=Josefin+Sans:ital,wght@0,400;1,500&family=Josefin+Slab:ital,wght@0,500;1,400&family=Jost:ital,wght@0,100;0,200;0,500;1,100;1,400&family=Jura&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Lobster&family=Open+Sans&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Space+Mono&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
+
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.il{
+ 
+  color:  #00485e;
+}
+
+.inner{
+  font-family: 'Inter';
+}
+.jura{
+    font-family:  'Jura';
+}
+.JosefinSans{
+  font-family: 'Josefin Sans';
+}
+.JosefinSlab{
+  font-family: 'Josefin Slab';
+}
+.jost{
+  font-family: 'Jost',
+}
+
+.jaldi{
+  font-family: 'Jaldi',
+}
+.bebasNeue{
+  font-family: 'Bebas Neue',
+}
+.Homenaje{
+  font-family: 'Homenaje',
+}
+.k2d{
+  font-family: 'K2D',
+}
+.rubik{
+  font-family: 'Rubik'
+}
+.istokWeb{
+  font-family: 'Istok Web',
+}
+
+/* font-family: 'Alike Angular', serif;
+font-family: 'Asul', sans-serif;
+font-family: 'Homenaje', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Istok Web', sans-serif;
+font-family: 'Jaldi', sans-serif;
+
+font-family: 'Josefin Slab', serif;
+font-family: 'Jura', sans-serif;
+font-family: 'K2D', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Space Mono', monospace;
+font-family: 'Work Sans', sans-serif; */

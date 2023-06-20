@@ -23,12 +23,12 @@ const OurSuccess = () => {
             {
                 cardData.map((data) =>
                     <div key={data.successId} className=" mb-24 mt-7" >
-                      <div className="  bg-base-100 shadow-xl  h-44 rounded-full">
+                      <div className="  bg-base-100 shadow-xl  h-48 rounded-full">
                      
                       <img src={data.image} className="px-5 pt-16" alt="" />
                       </div>
                     <div className="">
-                    <p className="">{data.description}</p>
+                    <p className="inner text-center mt-3">{data.description}</p>
                     </div>
                 </div>)
             }

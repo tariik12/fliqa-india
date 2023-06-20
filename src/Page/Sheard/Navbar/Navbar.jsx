@@ -14,11 +14,11 @@ const Navbar = () => {
 
   const navLinkItem =
     <>
-    <Link className="me-8 font-bold " to='/'>Home</Link>
-    <Link className="me-8 font-bold " to="/">Service</Link>
-    <Link className="me-8 font-bold " to='/'>Portfolio</Link>
-    <Link className="me-8 font-bold " to='/'>Community</Link>
-    <Link className="me-8 font-bold " to='/'>blog</Link>
+    <Link className="me-8 text-lg inner hover:font-semibold hover:text-base-300 " to='/'>Home</Link>
+    <Link className="me-8 text-lg inner hover:font-semibold hover:text-base-300 " to="/">Service</Link>
+    <Link className="me-8 text-lg inner hover:font-semibold hover:text-base-300 " to='/'>Portfolio</Link>
+    <Link className="me-8 text-lg inner hover:font-semibold hover:text-base-300 " to='/'>Community</Link>
+    <Link className="me-8 text-lg inner hover:font-semibold hover:text-base-300 " to='/'>blog</Link>
 </>
 
     return (
@@ -28,20 +28,23 @@ const Navbar = () => {
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </label>
-            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-5 hover:bg-[#000000b8]  shadow bg-[#0000007d] rounded-box w-52">
              {navLinkItem}
             </ul>
           </div>
-          <img className="w-24 h-10 ms-5 my-5" src={fliqaNavLogo} alt="" />
+          <Link to='/'><img className="w-24 h-10   ms-5 my-5" src={fliqaNavLogo} alt="" /></Link>
         <div className="navbar-center hidden lg:flex ms-10">
           <ul className="menu menu-horizontal px-1">
             {navLinkItem}
           </ul>
         </div>
         </div>
-        <div className="navbar-end">
-        <Link className="me-4 font-bold " to='/'>Login</Link>
+        <div className="navbar-end me-5">
+        {/* <Link className="me-4 font-bold bg-[#017b96 #1e4047]" to='/'> Login</Link>
         <Link className="me-4 font-bold " to='/'>SingIn</Link>
+        <div className="badge badge-[#017b96 #1e4047]">accent</div> */}
+        <button className="btn me-4 btn-sm border-none inner text-white "  style={{ background:`linear-gradient(to bottom, rgba(1, 123, 150, 1),rgba(30, 64, 71, 1)` }}>Sing Up</button>
+        <button className="btn me-4 btn-sm border-none inner text-white"  style={{ background:`linear-gradient(to bottom, rgba(1, 123, 150, 1),rgba(30, 64, 71, 1)` }}>Sing In</button>
         </div>
       </div>
       );

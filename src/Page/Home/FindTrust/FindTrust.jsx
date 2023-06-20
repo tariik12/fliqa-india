@@ -11,23 +11,26 @@ const FindTrust = () => {
         .then(data =>{
             console.log(data)
             setFindTrust(data)
+            // style={{ background:`linear-gradient(to bottom, #a1e3d8 rgba(161, 227, 216, 1),rgba(255, 255, 255, 1)` }}
         })
     },[])
     return (
-        <div className='bg-[#a1e3d8]'>
-            <div className="flex justify-between p-10">
+        <div className= ' bg-[#A1E3D8] shadow-inner  relative pt-11 px-9  ' style={{boxShadow:" 0px 10px 20px 13px rgba(1,1,1,0.50) inset"}}  >
+                    {/* <div className='h-full w-full bg-[#100c0c5d] absolute  p-32'></div> */}
+           
+            <div className="flex justify-between  " >
                 <div >
-                <h1 className='text-[#4C696D,rgba(161, 227, 216, 1)] text-4xl'>Find Trust Associate</h1>
+                <h1 className=' text-4xl'>Find Trust Associate</h1>
                 <p className='text-xl'>Find The Best Fliqa Associate for your special day</p>
                 </div>
-                <div className='flex items-center text-2xl'>
+                <div className='flex inner items-center '>
                     see more &gt; &gt;
                 </div>
                 </div>
-                <div className='grid grid-cols-5 gap-5 mx-4'>
+                <div className='grid grid-cols-5 gap-5 pt-10'>
                     {
                         findTrust.map((find) =>
-                        <div key={find.image} className="card rounded-2xl shadow-4xl mb-10 bg-black">
+                        <div key={find.image} className="card rounded-3xl  mb-8 bg-black" style={{boxShadow:'4px 10px 4px  1px #060a099f '}}>
                         <img src={find.image} alt="" />
                        <div className='flex justify-between text-white'>
                          <div className='ms-2 p-2'>
@@ -43,6 +46,7 @@ const FindTrust = () => {
                    
                 
                 </div>
+           
            
         </div>
     );

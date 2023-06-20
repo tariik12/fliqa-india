@@ -34,15 +34,15 @@ const RealWedding = () => {
                   
                    </div>
                     <div>
-                    <h1 className="font-bold text-lg">{data.title}</h1>
-                    <p className="">{data.description}</p>
+                    <h1 className="font-bold text-lg k2d">{data.title}</h1>
+                    <p className="k2d">{data.description}</p>
                     </div>
                 </div>)
             }
             </div>
 
            
-           <button className="bg-[#BADCDC] btn mt-14 w-2/12 ms-96 ">View more Wedding</button>
+           <button className="bg-[#BADCDC] btn mt-14 w-2/12 ms-96 inner ">View more Wedding</button>
            <div className="divider md:w-[1100px] mt-10 mb-28 mx-auto bg-black h-[.02px]  "></div>
         </div>
     );

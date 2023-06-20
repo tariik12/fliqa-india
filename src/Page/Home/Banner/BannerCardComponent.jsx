@@ -19,14 +19,13 @@ const BannerCardComponent = () => {
                     <div key={index} className="flex items-center gap-2 " >
                     <img className="h-[120px] w-[100px] " src={data.image} alt="" />
                     <div>
-                    <h1 className="font-bold text-lg">{data.title}</h1>
-                    <p className="">{data.description}</p>
+                    <h1 className="font-bold inner">{data.title}</h1>
+                    <p className=" inner">{data.description}</p>
                     </div>
                 </div>)
             }
             </div>
-           
-           <div className="divider md:w-[1100px] mt-10 mb-28 mx-auto bg-black h-[.02px]  "></div>
+           <div className="bg-[#000000] mx-auto mt-11 mb-28 md:w-[1100px] h-[2px]"><hr /></div>
           
         </div>
     );
