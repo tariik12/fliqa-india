@@ -1,9 +1,15 @@
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 const BrandingToMarketing = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+      }, [])
     return (
         <div>
 
-            <div className="md:flex gap-5 " style={{ backgroundImage: `url("https://i.ibb.co/G5dS0wY/branding-Bg.png")` }}>
+            <div className="md:flex gap-5 " style={{ backgroundImage: `url("https://i.ibb.co/G5dS0wY/branding-Bg.png")` }} data-aos="zoom-in">
 
                 <div className="text-white  ps-10 pt-10 md:pt-0 mt-16 pb-10 md:pb-0 ">
                     <h1 className="bebasNeue uppercase"><span className="md:text-5xl text-xl font-thin ">Discover</span> <br /> <span className="md:text-5xl text-3xl font-bold">Graphic Design Ideas and services</span>
@@ -17,28 +23,28 @@ Search" className="input text-[#00000080] mx-auto input-sm JosefinSlab  w-full i
                     </div>
                 </div>
                 <div className="grid md:grid-cols-4 grid-cols-2 gap-5 ">
-                    <div className="">
+                    <div className="" data-aos="zoom-in-up">
                         <div className="divider hidden md:block h-28 w-[1px] ms-[70px] bg-white text-white  divider-horizontal "></div>
                         <div className="relative">
                             <div className="bg-white w-12 h-4 z-10 mt-2 absolute left-[35%]"></div>
                             <img className=" bg-black  p-2" src="https://i.ibb.co/SXTBdjk/image-49.png" alt="" />
                         </div>
                     </div>
-                    <div className="">
+                    <div className="" data-aos="zoom-in-up">
                         <div className="divider hidden md:block h-12 w-[1px] ms-[73px] bg-white text-white  divider-horizontal"></div>
                         <div className="relative">
                             <div className="bg-white w-12 h-4 z-10 mt-2 absolute left-[35%]"></div>
                             <img className=" bg-black  p-2" src="https://i.ibb.co/6t3zkLw/image-32.png" alt="" />
                         </div>
                     </div>
-                    <div className="">
+                    <div className="" data-aos="zoom-in-up">
                         <div className="divider hidden md:block h-32 w-[1px] ms-[73px] bg-white text-white  divider-horizontal"></div>
                         <div className="relative">
                             <div className="bg-white w-12 h-4 z-10 mt-2 absolute left-[35%]"></div>
                             <img className=" bg-black  p-2" src="https://i.ibb.co/0yZLhtv/Rectangle-166.png" alt="" />
                         </div>
                     </div>
-                    <div className="">
+                    <div className="" data-aos="zoom-in-up">
                         <div className=" divider hidden md:block h-24 w-[1px] ms-[73px] bg-white text-white  divider-horizontal">
 
                         </div>

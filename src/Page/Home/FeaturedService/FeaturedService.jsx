@@ -4,7 +4,9 @@ import "slick-carousel/slick/slick-theme.css";
 import "./FeaturedSevice.css"
 import FeatureComponent from "../../Component/FeatureComponent/FeatureComponent";
 import HeaderComponent from "../../Component/HeaderComponent/HeaderComponent";
-
+import { useEffect } from 'react';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const FeaturedService = () => {
 
@@ -39,8 +41,12 @@ const FeaturedService = () => {
             );
         }
     };
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+      }, [])
     return (
-        <div className="mb-20 mt-[62px] ms-10">
+        <div className="mb-20 mt-[62px] ms-10" data-aos="zoom-in">
             <div>
             <HeaderComponent title={'Our Featured Service'} des={"Discover the range of services provided the fliqf india "}></HeaderComponent>
                

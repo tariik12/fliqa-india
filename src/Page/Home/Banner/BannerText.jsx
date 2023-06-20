@@ -1,8 +1,15 @@
-
+import { useEffect } from 'react';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const BannerText = () => {
+
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+      }, [])
     return (
-        <div className="text-center mt-5">
+        <div className="text-center mt-5" data-aos="zoom-in">
             <h1 className=" text-[30px] md:text-[64px] jura" style={{fontWeight:'700'}}>India&apos;s Leading Creative Platform</h1>
             <p className="mt-2 JosefinSans text-[12px] md:text-[32px] text-[#4C696D]">Experience hassle free booking. Trust by 2500+ Customer</p>
             <div className="flex relative my-9 text-center">

@@ -4,8 +4,10 @@ import Navbar from '../Page/Sheard/Navbar/Navbar';
 import Footer from '../Page/Sheard/Footer/Footer';
 
 const Main = () => {
+
+   
     return (
-        <div>
+        <div >
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>

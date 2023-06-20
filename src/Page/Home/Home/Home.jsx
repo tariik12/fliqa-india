@@ -25,13 +25,13 @@ const Home = () => {
             <FindTrust></FindTrust>
             <FeaturedService></FeaturedService>
             <BrandingToMarketing></BrandingToMarketing>
-            <OurBlogs></OurBlogs>
+             <OurBlogs></OurBlogs>
             <RealWedding></RealWedding>
             <BestOffer></BestOffer>
             <Testimonials></Testimonials>
             <OurAwards></OurAwards>
             <OurSuccess></OurSuccess>
-            <PhotoGraphy></PhotoGraphy>
+             <PhotoGraphy></PhotoGraphy>
             <GrowOurCareer></GrowOurCareer>
         </div>
     );

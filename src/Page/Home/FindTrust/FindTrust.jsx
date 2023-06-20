@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import HeaderComponent from '../../Component/HeaderComponent/HeaderComponent';
-
+import { Link } from 'react-router-dom';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const FindTrust = () => {
 
     const [findTrust, setFindTrust] = useState([])
@@ -15,22 +17,26 @@ const FindTrust = () => {
          
         })
     },[])
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+      }, [])
     return (
-        <div className= ' bg-[#A1E3D8] shadow-inner  relative md:pt-11 pt-8 md:px-9 px-4 ' style={{boxShadow:" 0px 10px 20px 13px rgba(1,1,1,0.50) inset"}}  >
+        <div className= ' bg-[#A1E3D8] shadow-inner  relative md:pt-11 pt-8 md:px-9 px-4 ' style={{boxShadow:" 0px 10px 20px 13px rgba(1,1,1,0.50) inset"}} data-aos="flip-right" >
            
             <div className="flex justify-between  " >
                 <div >
                 <HeaderComponent title={'Find Trust Associate'} des={"Find The Best Fliqa Associate for your special day"}></HeaderComponent>
                
                 </div>
-                <div className='flex inner items-center text-sm md:text-xl'>
+                <Link className='flex inner items-center text-sm md:text-xl'>
                     see more &gt; &gt;
-                </div>
+                </Link>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-5 md:gap-5 gap-5 md:pt-10 pt-6'>
                     {
                         findTrust.map((find) =>
-                        <div key={find.image} className="card rounded-3xl md:mb-8  bg-black" style={{boxShadow:'4px 10px 4px  1px #060a099f '}}>
+                        <div key={find.image} className="card rounded-3xl md:mb-8  bg-black" style={{boxShadow:'4px 10px 4px  1px #060a099f '}} data-aos="flip-right">
                             
                         <img src={find.image} alt="" />
                        <div className='flex justify-between text-white'>

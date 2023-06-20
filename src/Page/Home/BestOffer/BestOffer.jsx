@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import HeaderComponent from "../../Component/HeaderComponent/HeaderComponent";
 
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const BestOffer = () => {
     const [cardData, setCardData] = useState([])
 
@@ -13,12 +14,17 @@ const BestOffer = () => {
                 setCardData(data)
             })
     }, [])
+
+    
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+      }, [])
     return (
-        <div>
+        <div className="">
             <div className=" pb-6   text-center">
                <HeaderComponent title={'Best Offer'} des={"List your wedding and browse portfolio"}></HeaderComponent>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-[100px] mx-20 bg-gradient-to-t from-[#ffffff] via-[#BADCDC] to-[#ffffff] " >
+            <div className="grid grid-cols-1 md:grid-cols-4 md:gap-[100px] gap-6 mx-20 bg-gradient-to-t from-[#ffffff] via-[#BADCDC] to-[#ffffff] " >
           
             <div className="divider absolute hidden md:block h-80  w-[1px] ms-[250px] bg-[#8F8787] text-white  divider-horizontal"></div>  
             <div className="divider absolute hidden md:block h-80  w-[1px] ms-[560px] bg-[#8F8787] text-white  divider-horizontal"></div>  
@@ -27,13 +33,13 @@ const BestOffer = () => {
                           
                 {
                     cardData.map((data) =>
-                        <div key={data.offerId} className="text-white shadow-xl rounded-xl" style={{ boxShadow: '2px 2px 4px  1px #060a099f ' }} >
+                        <div key={data.offerId} className="text-white shadow-xl rounded-xl" style={{ boxShadow: '2px 2px 4px  1px #060a099f ' }}  data-aos="fade-down-left">
                           
                             <div style={{
                                 backgroundImage:
                                     `linear-gradient(to bottom, rgba(21, 21, 21, 0.6),rgba(21, 21, 21, 0.6)),
                          url('${data.image}')`
-                            }} className=" bg-no-repeat rounded-xl">
+                            }} className=" bg-no-repeat rounded-xl md:mx-0 mx-20" >
                                 <h1 className="font-bold text-center text-lg mx-10 pt-10 bottom-2">{data.title}</h1>
                                 {/* <div className="divider    h-[.02px]  "></div> */}
                                 {/* <p className="">{data.description}</p> */}

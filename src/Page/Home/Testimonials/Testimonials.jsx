@@ -3,7 +3,8 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import TestimonialComponent from './TestimonialComponent';
 import HeaderComponent from '../../Component/HeaderComponent/HeaderComponent';
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Testimonials = () => {
 
     const [cardData, setCardData] = useState([])
@@ -18,6 +19,10 @@ const Testimonials = () => {
         })
     },[])
 
+    
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+      }, [])
     const googles = cardData.filter(data =>data.type === 'google')
     const facebooks = cardData.filter(data =>data.type === 'facebook')
     const weddingWires = cardData.filter(data =>data.type === 'weddingWire')
@@ -26,7 +31,7 @@ const Testimonials = () => {
     return (
         <div className='mb-20 '>
               <div className=' md:flex items-center pb-3 '>
-              <div>
+              <div data-aos="zoom-in">
               <div className='relative h-80 md:flex flex-row md:w-[460px] w-[300px] pe-3  mb-0 pb-0 mx-2'>
                 <img className='md:h-56 h-[180px] bottom-0 absolute' src="https://i.ibb.co/9GK8nXK/XMLID-268.png" alt="" />
                 <img className='md:h-32 h-[110px] bottom-0 left-24 absolute' src="https://i.ibb.co/y4ttWfj/XMLID-777.png" alt="" />
@@ -53,28 +58,28 @@ const Testimonials = () => {
                     </TabList>
 
                     <TabPanel >
-                        <div className='grid  grid-cols-1 md:grid-cols-4 gap-11 bg-[#DDF8F3]'>
+                        <div className='grid  grid-cols-1 md:grid-cols-4 gap-11 bg-[#DDF8F3]' data-aos="zoom-in">
                         {
                             googles.map(google =><TestimonialComponent key={google.testimonialId} name={google.name} image={google.image} description={google.description}></TestimonialComponent>)
                         }
                         </div>
                     </TabPanel>
                     <TabPanel>
-                    <div className='grid  grid-cols-1 md:grid-cols-4 gap-11 bg-[#DDF8F3]'>
+                    <div className='grid  grid-cols-1 md:grid-cols-4 gap-11 bg-[#DDF8F3]' data-aos="zoom-in">
                         {
                             facebooks.map(facebook =><TestimonialComponent key={facebook.testimonialId} name={facebook.name} image={facebook.image} description={facebook.description}></TestimonialComponent>)
                         }
                         </div>
                     </TabPanel>
                     <TabPanel>
-                    <div className='grid  grid-cols-1 md:grid-cols-4 gap-11 bg-[#DDF8F3]'>
+                    <div className='grid  grid-cols-1 md:grid-cols-4 gap-11 bg-[#DDF8F3]' data-aos="zoom-in">
                         {
                             weddingWires.map(weddingWire =><TestimonialComponent key={weddingWire.testimonialId} name={weddingWire.name} image={weddingWire.image} description={weddingWire.description}></TestimonialComponent>)
                         }
                         </div>
                     </TabPanel>
                     <TabPanel>
-                    <div className='grid  grid-cols-1 md:grid-cols-4 gap-11 bg-[#DDF8F3]'>
+                    <div className='grid  grid-cols-1 md:grid-cols-4 gap-11 bg-[#DDF8F3]' >
                         {
                             wedMeGoods.map(wedMeGood =><TestimonialComponent key={wedMeGood.testimonialId} name={wedMeGood.name} image={wedMeGood.image} description={wedMeGood.description}></TestimonialComponent>)
                         }

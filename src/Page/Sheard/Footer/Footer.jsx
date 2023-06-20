@@ -3,9 +3,18 @@ import { BsWhatsapp } from "react-icons/bs";
 import { SlSocialInstagram } from "react-icons/sl";
 import { Link } from "react-router-dom";
 
+import { useEffect } from 'react';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Footer = () => {
+
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
     return (
-        <div className="bg-black text-white relative overflow-hidden">
+        <div className="bg-black text-white relative overflow-hidden" data-aos="zoom-in">
            <div className="   w-96 h-96  overscroll-contain rounded-full bg-[#e0e0e0c5] -right-28 -top-56 absolute">
 
 </div>

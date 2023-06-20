@@ -1,28 +1,35 @@
 import HeaderComponent from "../../Component/HeaderComponent/HeaderComponent";
 
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 const OurBlogs = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
     return (
-        <div className="bg-[#DDF8F3] ">
+        <div className="bg-[#DDF8F3] " data-aos="zoom-in-up">
             <div className="pt-6 pb-8  ms-9">
             <HeaderComponent title={'Our Blogs'} des={"Check out our Latest Blog"}></HeaderComponent>
+
             </div>
             <div className="grid grid-col-1 md:grid-cols-3 pb-10 md:ps-12 items-center">
-               <div className="relative ">
+               <div className="relative " data-aos="flip-left">
                <div  className="w-[300px] h-[220px] rounded-xl p-9 bg-[#0505059d] absolute text-white ms-1">
                 <p className="font-bold k2d">Featured on: Sep 15, 2021</p>
                 <h2 className="text-4xl font-thin k2d">Wedding Photography at Goa</h2>
                </div>
                <img className="h-[230px] w-full"  src="https://i.ibb.co/9rZmMjS/Fliqa-India-wedding.png" alt="" />
                </div>  
-                <div className="relative">
+                <div className="relative" data-aos="flip-right">
                 <div  className="w-[300px] h-[220px] rounded-xl p-9 bg-[#0505059d] absolute text-white ms-1">
                 <p className="font-bold k2d ">Featured on: Sep 15, 2021</p>
                 <h2 className="text-4xl font-thin shadow-black k2d">Photography: Expectations vs. Reality</h2>
                </div>
                     <img className="h-[230px] w-full" src="https://i.ibb.co/QXvX4L4/Wedding-Trailer.png" alt="" />
                 </div>
-                  <div className="py-2 px-2">
+                  <div className="py-2 px-2" data-aos="flip-left">
                     <div className="flex px-4 justify-between">
                         <p className="k2d">Trending Now</p>
                         <p className="k2d">View All</p>

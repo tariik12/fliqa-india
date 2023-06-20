@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { AiOutlineArrowRight, } from 'react-icons/ai';
 import HeaderComponent from "../../Component/HeaderComponent/HeaderComponent";
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const RealWedding = () => {
     const [cardData, setCardData] = useState([])
    
@@ -14,6 +15,11 @@ const RealWedding = () => {
             setCardData(data)
         })
     },[])
+
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 })
+      }, [])
     return (
         <div>
              <div className="mt-28 ms-9">
@@ -23,14 +29,14 @@ const RealWedding = () => {
             <div className="grid grid-cols-1 ms-24 me-20 md:grid-cols-4 gap-14 " >
             {
                 cardData.map((data) =>
-                    <div key={data.image}style={{boxShadow:'2px 2px 4px  1px #060a099f '}} className="  mt-8  "  >
+                    <div key={data.image}style={{boxShadow:'2px 2px 4px  1px #060a099f '}} className="  mt-8  " data-aos="fade-down-right" >
                    <div className="p-1" style={{backgroundColor:`${data.color}`}}>
-                   <img className=" " src={data.image} alt="" />
+                   <img className="w-full " src={data.image} alt="" />
                     
                     <div className="grid grid-cols-3 ">
-                        <img src={data.pic1} alt="" />
-                        <img src={data.pic2} alt="" />
-                        <img src={data.pic3} alt="" />
+                        <img className="w-full" src={data.pic1} alt="" />
+                        <img className="w-full" src={data.pic2} alt="" />
+                        <img className="w-full" src={data.pic3} alt="" />
                     </div>
                   
                     <div >
