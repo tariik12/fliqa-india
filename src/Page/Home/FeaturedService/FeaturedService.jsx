@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./FeaturedSevice.css"
 import FeatureComponent from "../../Component/FeatureComponent/FeatureComponent";
+import HeaderComponent from "../../Component/HeaderComponent/HeaderComponent";
 
 
 const FeaturedService = () => {
@@ -41,8 +42,8 @@ const FeaturedService = () => {
     return (
         <div className="mb-20 mt-[62px] ms-10">
             <div>
-                <h1 className='text-[#4C696D,rgba(161, 227, 216, 1)] md:text-4xl text-xs'>Our Featured Service</h1>
-                <p className='md:text-xl text-xs'>Discover the range of services provided the fliqf india  </p>
+            <HeaderComponent title={'Our Featured Service'} des={"Discover the range of services provided the fliqf india "}></HeaderComponent>
+               
             </div>
             <Slider {...settings} className=" md:mx-10 mt-10  ">
                 <div  className="">

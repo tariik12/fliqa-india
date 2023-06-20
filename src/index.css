@@ -13,7 +13,7 @@
 .il{
  
   color:  
-  #ddf9ff;
+  #ffffff;
 }
 
 /* .react-tabs__tab:active{
@@ -70,6 +70,14 @@
 }
 .istokWeb{
   font-family: 'Istok Web',
+}
+
+@font-face {
+  font-family: 'Itoya';
+  src: url('./assets/fonts/ItoyaTrial-Bold-BF63c89a69369b2.otf') format('truetype');
+  src: url('./assets/fonts/ItoyaTrial-Regular-BF63c89a6a3fc1d.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* font-family: 'Alike Angular', serif;

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import HeaderComponent from '../../Component/HeaderComponent/HeaderComponent';
 
 const FindTrust = () => {
 
@@ -19,8 +20,8 @@ const FindTrust = () => {
            
             <div className="flex justify-between  " >
                 <div >
-                <h1 className='text-sm font-bold md:text-4xl'>Find Trust Associate</h1>
-                <p className='text-xs md:text-xl'>Find The Best Fliqa Associate for your special day</p>
+                <HeaderComponent title={'Find Trust Associate'} des={"Find The Best Fliqa Associate for your special day"}></HeaderComponent>
+               
                 </div>
                 <div className='flex inner items-center text-sm md:text-xl'>
                     see more &gt; &gt;
@@ -30,10 +31,11 @@ const FindTrust = () => {
                     {
                         findTrust.map((find) =>
                         <div key={find.image} className="card rounded-3xl md:mb-8  bg-black" style={{boxShadow:'4px 10px 4px  1px #060a099f '}}>
+                            
                         <img src={find.image} alt="" />
                        <div className='flex justify-between text-white'>
                          <div className='ms-2 p-2'>
-                         <h1 className='md:font-bold md:text-xl text-xs font-bold'> {find.name}</h1>
+                         <h1 className='md:font-bold md;text-xl text-xs font-bold'> {find.name}</h1>
                         <p>{find.location}</p>
                          </div>
                          <div>

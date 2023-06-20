@@ -31,10 +31,17 @@ Search" className="input text-[#00000080] mx-auto input-sm JosefinSlab  w-full i
                     <img className=" bg-black  p-2" src="https://i.ibb.co/0yZLhtv/Rectangle-166.png" alt="" />
                 </div>
                 <div className="">
-                <div className="divider hidden md:block h-24 w-[1px] ms-[73px] bg-white text-white  divider-horizontal"><span className="bg-white w-12 h-4 z-10 absolute mt-[104px]"></span></div>
+                <div className=" divider hidden md:block h-24 w-[1px] ms-[73px] bg-white text-white  divider-horizontal">
+               
+                </div>
+                 <div className="relative">
+                 <div className="bg-cyan-300  w-10  h-4 z-10 absolute  left-[40%] "></div>
                     <img className=" bg-black  p-2" src="https://i.ibb.co/1dTxQTT/image-24.png" alt="" />
+                 </div>
+                   
                 </div>
             </div>
+            
 
            
         </div>

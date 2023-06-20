@@ -1,11 +1,11 @@
+import HeaderComponent from "../../Component/HeaderComponent/HeaderComponent";
 
 
 const OurBlogs = () => {
     return (
         <div className="bg-[#DDF8F3] ">
             <div className="pt-6 pb-8  ms-9">
-                <h1 className="text-[#4C696D] font-bold text-4xl">Our Blogs</h1>
-                <p className="text-[#0C0C0C] text-xl">Check out our Latest Blog</p>
+            <HeaderComponent title={'Our Blogs'} des={"Check out our Latest Blog"}></HeaderComponent>
             </div>
             <div className="grid grid-col-1 md:grid-cols-3 pb-10 md:ps-12 items-center">
                <div className="relative ">

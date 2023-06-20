@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { AiOutlineArrowRight, } from 'react-icons/ai';
+import HeaderComponent from "../../Component/HeaderComponent/HeaderComponent";
 
 const RealWedding = () => {
     const [cardData, setCardData] = useState([])
@@ -16,8 +17,8 @@ const RealWedding = () => {
     return (
         <div>
              <div className="mt-28 ms-9">
-                <h1 className="text-[#4C696D] font-bold text-4xl">Real Wedding</h1>
-                <p className="text-[#0C0C0C] text-xl">List your wedding and browse portfolio</p>
+             <HeaderComponent title={'Real Wedding'} des={"List your wedding and browse portfolio"}></HeaderComponent>
+              
             </div>
             <div className="grid grid-cols-1 ms-24 me-20 md:grid-cols-4 gap-14 " >
             {
@@ -46,7 +47,7 @@ const RealWedding = () => {
           <button className="bg-[#ddf9ff] hover:bg-[#ddf9ff] btn mt-14  inner ">View more Wedding  <AiOutlineArrowRight className=" text-xl"/></button>
           
           </div>
-          <div className="bg-[#000000] mx-auto mt-11 mb-16 md:w-[1100px] w-[390px] h-[2px]"><hr /></div>
+          <div className="bg-[#ADA3A3] mx-auto mt-11 mb-5 md:w-[1100px] w-[390px] h-[2px]"><hr /></div>
         </div>
     );
 };

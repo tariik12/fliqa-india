@@ -28,10 +28,10 @@ const Home = () => {
             <OurBlogs></OurBlogs>
             <RealWedding></RealWedding>
             <BestOffer></BestOffer>
-            <OurAwards></OurAwards>
             <Testimonials></Testimonials>
+            <OurAwards></OurAwards>
             <OurSuccess></OurSuccess>
-            {/* <PhotoGraphy></PhotoGraphy> */}
+            <PhotoGraphy></PhotoGraphy>
             <GrowOurCareer></GrowOurCareer>
         </div>
     );

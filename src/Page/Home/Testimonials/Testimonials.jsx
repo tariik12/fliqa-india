@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import TestimonialComponent from './TestimonialComponent';
+import HeaderComponent from '../../Component/HeaderComponent/HeaderComponent';
 
 const Testimonials = () => {
 
@@ -23,7 +24,7 @@ const Testimonials = () => {
     const wedMeGoods = cardData.filter(data =>data.type === 'WedMeGood')
    console.log(googles,facebooks,wedMeGoods,weddingWires)
     return (
-        <div className='mb-20 border '>
+        <div className='mb-20 '>
               <div className=' md:flex items-center pb-3 '>
               <div>
               <div className='relative h-80 md:flex flex-row md:w-[460px] w-[300px] pe-3  mb-0 pb-0 mx-2'>
@@ -40,8 +41,7 @@ const Testimonials = () => {
               </div>
             <div className='relative pt-3'>
             <div className=" absolute start-32 md:start-0">
-                <h1 className="text-[#4C696D] font-bold text-4xl ">Testimonials</h1>
-                <p className="text-[#0C0C0C] text-xl">Words from our clients</p>
+            <HeaderComponent title={'Testimonials'} des={"Words from our clients"}></HeaderComponent>
             </div>
 
                 <Tabs className='w-full md:pt-5 pt-20   pe-8'>
