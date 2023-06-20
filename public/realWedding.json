@@ -1,6 +1,7 @@
 [
     {
         "image": "https://i.ibb.co/0qCQb90/wedding2.png",
+        "color": "#DDF8F3",
         "pic1": "https://i.ibb.co/PNHqqRB/wedding1.png",
         "pic2": "https://i.ibb.co/XD0J3p2/blog2.png",
         "pic3": "https://i.ibb.co/PNHqqRB/wedding1.png",
@@ -9,6 +10,7 @@
       },
     {
         "image": "https://i.ibb.co/jbbZg92/ourBlog2.png",
+        "color": "#FBDADA",
         "pic1": "https://i.ibb.co/PNHqqRB/wedding1.png",
         "pic2": "https://i.ibb.co/XD0J3p2/blog2.png",
         "pic3": "https://i.ibb.co/PNHqqRB/wedding1.png",
@@ -17,6 +19,7 @@
       },
     {
         "image": "https://i.ibb.co/xYJMqpK/ourBlog3.png",
+        "color": "#FFF9D9",
         "pic1": "https://i.ibb.co/PNHqqRB/wedding1.png",
         "pic2": "https://i.ibb.co/XD0J3p2/blog2.png",
         "pic3": "https://i.ibb.co/PNHqqRB/wedding1.png",
@@ -25,6 +28,7 @@
       },
     {
         "image": "https://i.ibb.co/cwGZm6R/ourBlog4.png",
+        "color": "#DDE4FF",
         "pic1": "https://i.ibb.co/PNHqqRB/wedding1.png",
         "pic2": "https://i.ibb.co/XD0J3p2/blog2.png",
         "pic3": "https://i.ibb.co/PNHqqRB/wedding1.png",

@@ -31,7 +31,7 @@ const Home = () => {
             <OurAwards></OurAwards>
             <Testimonials></Testimonials>
             <OurSuccess></OurSuccess>
-            <PhotoGraphy></PhotoGraphy>
+            {/* <PhotoGraphy></PhotoGraphy> */}
             <GrowOurCareer></GrowOurCareer>
         </div>
     );

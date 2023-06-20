@@ -3,13 +3,12 @@ import { useEffect, useState } from "react";
 
 const BestOffer = () => {
     const [cardData, setCardData] = useState([])
-    console.log(cardData)
+   
 
     useEffect(() =>{
         fetch('bestOffers.json')
         .then(res =>res.json())
         .then(data =>{
-            console.log(data)
             setCardData(data)
         })
     },[])

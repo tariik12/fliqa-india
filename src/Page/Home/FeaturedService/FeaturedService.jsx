@@ -13,6 +13,25 @@ const FeaturedService = () => {
         centerPadding: "60px",
         slidesToShow: 4,
         swipeToSlide: true,
+        responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 1008,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 800,
+              settings: 'unslick',
+            },],
         afterChange: function (index) {
             console.log(
                 `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
@@ -20,26 +39,26 @@ const FeaturedService = () => {
         }
     };
     return (
-        <div className="mb-20">
+        <div className="mb-20 mt-[62px] ms-10">
             <div>
-                <h1 className='text-[#4C696D,rgba(161, 227, 216, 1)] text-4xl'>Our Featured Service</h1>
-                <p className='text-xl'>Discover the range of services provided the fliqf india  </p>
+                <h1 className='text-[#4C696D,rgba(161, 227, 216, 1)] md:text-4xl text-xs'>Our Featured Service</h1>
+                <p className='md:text-xl text-xs'>Discover the range of services provided the fliqf india  </p>
             </div>
-            <Slider {...settings} className=" mx-10 p-5  ">
+            <Slider {...settings} className=" md:mx-10 mt-10  ">
                 <div  className="">
                     <FeatureComponent image={"https://i.ibb.co/kS2MTfD/featured-Service1.png"}title={'Pre Wedding PhotoShoot'}text_bold={'Starting at'}text={"25,000 (One Day)"}></FeatureComponent>
                 </div>
              
                     <div >
-                    <FeatureComponent image={"https://i.ibb.co/87k3pHW/featured-Service3.png"}title={'Pre Wedding PhotoShoot'}text_bold={'Starting at'}text={"25,000 (One Day)"}></FeatureComponent>
+                    <FeatureComponent image={"https://i.ibb.co/87k3pHW/featured-Service3.png"}title={'Pre Wedding PhotoShoot'}text_bold={'Starting at'}text={"25,000 (Standard price for 6-8 hours)"}></FeatureComponent>
                 </div>
       
                 
-                <div > <FeatureComponent image={"https://i.ibb.co/mFXNnXY/featured-Service4.png"}title={'Pre Wedding PhotoShoot'}text_bold={'Starting at'}text={"25,000 (One Day)"}></FeatureComponent>
+                <div > <FeatureComponent image={"https://i.ibb.co/mFXNnXY/featured-Service4.png"}title={'Pre Wedding PhotoShoot'}text_bold={'Starting at'}text={"at 15,000 (One days)"}></FeatureComponent>
                    
                 </div>
                 <div > 
-                    <FeatureComponent image={"https://i.ibb.co/W6Wy5sv/featured-Service2.png"}title={'Pre Wedding PhotoShoot'}text_bold={'Starting at'}text={"25,000 (One Day)"}></FeatureComponent>
+                    <FeatureComponent image={"https://i.ibb.co/W6Wy5sv/featured-Service2.png"}title={'Pre Wedding PhotoShoot'}text_bold={'Starting at'}text={"62,000 (Two Day)"}></FeatureComponent>
 
                 </div>
                 <div>

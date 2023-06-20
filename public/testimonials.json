@@ -1,0 +1,137 @@
+
+[
+    {   
+        "testimonialId":"abcd1",
+        "type":"google",
+        "name":"Aadi",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      },
+    {
+        "testimonialId":"abcd2",
+        "type":"google",
+        "name":"Aadit",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+       
+      },
+    {
+        "testimonialId":"abcd3",
+        "type":"google",
+        "name":"Aadvik",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      }
+      ,
+    {
+        "testimonialId":"abcd4",
+        "type":"google",
+        "name":"Aahan",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      },
+    {   
+        "testimonialId":"abcd5",
+        "type":"facebook",
+        "name":"Aadi",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      },
+    {
+        "testimonialId":"abcd6",
+        "type":"facebook",
+        "name":"Aadit",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+       
+      },
+    {
+        "testimonialId":"abcd7",
+        "type":"facebook",
+        "name":"Aadvik",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      }
+      ,
+    {
+        "testimonialId":"abcd8",
+        "type":"facebook",
+        "name":"Aahan",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      },
+    
+    {   
+        "testimonialId":"abcd9",
+        "type":"weddingWire",
+        "name":"Aadi",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      },
+    {
+        "testimonialId":"abcd10",
+        "type":"weddingWire",
+        "name":"Aadit",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+       
+      },
+    {
+        "testimonialId":"abcd11",
+        "type":"weddingWire",
+        "name":"Aadvik",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      }
+      ,
+    {
+        "testimonialId":"abcd12",
+        "type":"weddingWire",
+        "name":"Aahan",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      },
+    {   
+        "testimonialId":"abcd13",
+        "type":"WedMeGood",
+        "name":"Aadavan",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "FliqaIndia recognize as a startup with DPIT in Startup India"
+      
+      },
+    {   
+        "testimonialId":"abcd14",
+        "type":"WedMeGood",
+        "name":"Aadi",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      },
+
+    {
+        "testimonialId":"abcd15",
+        "type":"WedMeGood",
+        "name":"Aadvik",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": "adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      }
+      ,
+    {
+        "testimonialId":"abcd16",
+        "type":"WedMeGood",
+        "name":"Aahan",
+        "image": "https://i.ibb.co/j820PMx/Ellipse-1-1.png",
+        "description": " sed diam nonummy nibh euismod tincidunt ut laoreet "
+        
+      }
+]
